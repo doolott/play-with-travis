@@ -1,6 +1,8 @@
 language: python
 python:
-  - "3.4"
-  - "3.7"
-
+- '3.4'
+- '3.6'
 script: python -m unittest
+notifications:
+  slack:
+    secure: OUE0N3ZD0qEm8Z8Y5mEP06R3o6aYIM4bnP+WHZYOOeWH/dHMJvwXZPGlqz8r3gdV1Fsx7iUlBrIknBxGEGfTFzQTmn1t8Q04J7TwLhUCUa+veNDUZy3NugGgHa1/D27LPFP98HdVlXkx1rdU6p9Cy+u/O4Ajk+JMSgn4mxjubOILrM1ap6Enao04S0NqzVN7/8ySWa3WzLonXCU2BMSOYQUdJPbzEhkzdREjqzbazVEpFPPTAqPIWGJpRlWvnqEuAJKkocXKQmQ7Z2EDRCUs+6Tjdy0wc3Br5Bm/r85oabxdJVGWEj4Prnt8b3neU+ZnpAjHOzYNivjDV4DWlv9wisTXlcDk4a0bD6pwcfEYfk8KEugxO+Il+52xXJ+DJn67FhbM6p5FBst0qbRX7kZH7bl6MnOvhmkuRD5pBDUz4GHygWFHwVK/beM42CIZssWv5sMb/cK4Oc28CPY+JTTR25Gzy+LzsrUqZJHRa42ds6mou2jBvpqcTor8Tjn+fq6HrzgFYh/f3Gyj7JQuVSCIFSZkX8/Al6GxST452lLjoi4J63tvjwTyK+QMM/OhPR9KMXumrSIHaG4NIcZNIHY8AHbmVQ1O78XJDhn+vFXZ+ChOEpnhSerOP3icZot/CgsoJdlsHvfA1vXJjKih8J8rbEH2QCsVb0r+OFwzXPnl+JQ=
